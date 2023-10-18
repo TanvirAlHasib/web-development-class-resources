@@ -31,4 +31,45 @@ img{
     max-width: 100%;
 }
 
+.wrapper{
+
+    max-width: 80%;
+    margin: auto;
+}
+
 /* default section end */
+
+/* header section start */
+
+.headerWrapperflex{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 4rem 0rem 4.4rem 0rem;
+}
+
+.logo{
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+ul a{
+
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+
+/* header section end */
