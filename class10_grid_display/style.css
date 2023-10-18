@@ -73,3 +73,133 @@ ul a{
 }
 
 /* header section end */
+
+/* hero section start */
+
+.hero_image_grid{
+
+    display: grid;
+    background-color: var(--backgroud-color);
+}
+
+.hero_container{
+
+    position: relative;
+}
+
+.absoulate{
+
+    position: absolute;
+    left: 63rem;
+    top: 15rem;
+    background-color: white;
+    max-width: 52.14rem;
+    max-height: 26.97rem;
+}
+
+.absoulate h1{
+
+    font-size: 3.6rem;
+    color: var(--heading-color);
+    font-weight: 700;
+    padding: 3rem 1.7rem 4.1rem 3.3rem;
+}
+
+.absoulate p{
+
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding: 2rem 0rem 0rem 3rem;
+}
+
+
+/* hero section end */
+
+/* 2nd section start */
+
+.food_blog_grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.2rem;
+}
+
+.food_post{
+
+    border: 0.1rem solid white;
+    max-width: 37.51rem;
+    max-height: 51.88rem;
+    background: rgba(52, 114, 47, 0.15);
+    padding: 2.5rem 3rem;
+}
+
+.food_post h2{
+
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    max-width: 30.9rem;
+}
+
+.food_post p{
+
+    color: var(--text-color);
+    font-size: 1.6rem;
+    max-width: 30.9rem;
+    margin: 2rem 0rem;
+}
+
+.secondWrappergrid{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    gap: 5.2rem;
+    margin-top: 10.10rem;
+}
+
+.aside_flex{
+
+    display: flex;
+    gap: 1.3rem;
+}
+
+.aside_flex h4{
+
+    font-size: 1.8rem;
+    color: var(--heading-color);
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+    max-width: 23rem;
+    
+}
+
+.aside_flex a{
+
+    font-size: 1.8rem;
+    color: var(--backgroud-color);
+    text-decoration: none;
+}
+
+.aside_column_flex{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main_aside_column_flex{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.main_aside_column_flex h2{
+
+    font-size: 3.8rem;
+}
+
+/* 2nd section end */
