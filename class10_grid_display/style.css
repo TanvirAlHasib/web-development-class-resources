@@ -287,3 +287,230 @@ ul a{
 
 
 /* footer section end */
+
+
+
+
+/* responsive design for 1500px window start */
+
+
+
+
+@media(max-width:1500px){
+
+    html{
+
+        font-size: 50.0%;
+    }
+
+    .absoulate{
+
+        position: absolute;
+        left: 80rem;
+        top: 21rem;
+        /* display: none; */
+    }
+
+}
+
+
+
+
+/* responsive design for 1500px window end */
+
+
+/* responsive design for 1200px window start */
+
+
+@media(max-width:1200px){
+
+    img{
+
+        max-width: 100%;
+    }
+
+    html{
+
+        font-size: 45.0%;
+    }
+
+    .absoulate{
+
+        /* position: absolute;
+        left: 90rem;
+        top: 25rem; */
+        display: none;
+    }
+
+    
+}
+
+
+
+
+/* responsive design for 1200px window end */
+
+
+/* responsive design for 900px window start */
+
+
+@media(max-width:900px){
+
+
+    img{
+
+        max-width: 100%;
+    }
+
+    .food_blog_grid{
+
+        gap: 2rem;
+    }
+
+    .secondWrappergrid{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .food_blog_grid{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .absoulate{
+
+        /* position: absolute;
+        top: 18rem;
+        left: 75rem;
+        max-height: 35rem; */
+        display: none;
+    }
+}
+
+
+/* responsive design for 900px window end */
+
+
+/* responsive design for 800px window start */
+
+
+@media(max-width:800px){
+
+    .footerWrapperHeroFlex{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}
+
+
+/* responsive design for 800px window end */
+
+
+/* responsive design for 650px window start */
+
+
+@media(max-width:650px){
+
+    .food_blog_grid{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* responsive design for 650px window end */
+
+
+/* responsive design for 400px window start */
+
+
+@media(max-width:400px){
+
+    ul{
+
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+
+/* responsive design for 400px window end */
+
+
+/* responsive design for 350px window start */
+
+
+@media(max-width:350px){
+
+    .wrapper{
+
+        max-width: 90%;
+    }
+
+    img{
+
+        max-width: 100%;
+    }
+
+    ul{
+
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+
+/* responsive design for 350px window end */
+
+
+/* responsive design for 300px window start */
+
+
+@media(max-width:300px){
+
+    html{
+
+        font-size: 42.0%;
+    }
+}
+
+
+/* responsive design for 300px window end */
+
+
+/* responsive design for 250px window start */
+
+
+@media(max-width:250px){
+
+    ul{
+
+        display: none;
+    }
+
+    .aside_flex{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_aside_column_flex{
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+}
+
+
+/* responsive design for 250px window end */
