@@ -74,6 +74,8 @@ ul a{
 
 /* header section end */
 
+/* main section start */
+
 /* hero section start */
 
 .hero_image_grid{
@@ -203,3 +205,85 @@ ul a{
 }
 
 /* 2nd section end */
+
+/* main section end */
+
+/* footer section start */
+
+
+/* footer hero section start */
+
+
+.footer_hero_container{
+
+    background-color: var(--backgroud-color);
+    margin-top: 13.14rem;
+}
+
+.footerWrapperHeroFlex{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5.4rem 0rem 6.4rem 0rem;
+}
+
+.footerWrapperHeroFlex h2{
+
+    font-size: 3.6rem;
+    color: white;
+}
+
+.footerWrapperHeroFlex h3{
+
+    font-size: 2.4rem;
+    margin-bottom: 2.2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.footerWrapperHeroFlex p{
+
+    max-width: 30.9rem;
+    font-size: 1.8rem;
+    color: #F4F4F4;
+    margin-top: 2rem;
+}
+
+.footerflex{
+
+    display: flex;
+    gap: 2.2rem;
+}
+
+.footerColumnFlex{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.footerColumnFlex a{
+
+    font-size: 1.8rem;
+    color: #E3E3E3;
+    font-weight: 400;
+}
+
+
+/* footer hero section end */
+
+/* footer 2nd section start */
+
+.footer_second_section{
+
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: 1.5rem;
+}
+
+/* footer 2nd section end */
+
+
+/* footer section end */
