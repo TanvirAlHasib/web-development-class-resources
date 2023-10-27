@@ -1,0 +1,21 @@
+case study post :
+-------------------------
+Website: https://www.agencymavericks.com/
+CMS: WordPress
+Theme: Hello-theme-child
+Plugin Used: dynamicconditions, duracelltomi-google-tag-manager, elementor-pro, elementor, jet-elements, jet-tabs, jet-search, Vimeo
+Marketing automation: HighLevel
+Databases: MySQL
+Tag managers: Google Tag Manager
+Security: reCAPTCHA, HSTS
+SEO: Yoast SEO
+JavaScript frameworks: Vue.js
+JavaScript libraries: jQuery UI, jQuery Migrate, Howler.js, core-js, Underscore.js, Polyfill, jQuery
+CDN: Cloudflare
+Programming languages: PHP
+Web frameworks: Ionic
+Font scripts: Google Font API, Font Awesome, Typekit
+Miscellaneous: RSS, Open Graph, Webpack, Module Federation, HTTP/3
+Type: Agency
+Features: Service search form, podcast, video, agency gps, testimonial, call request, chatbot, Training, Community, online courses, coaching, paid option.
+Pages: home, about, coaching, get paid to close, media, login, request a call
