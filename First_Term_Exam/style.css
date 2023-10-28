@@ -3,3 +3,825 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* font import section end */
+
+/* default section start */
+
+html{
+
+    --button-color: #182327;
+    --blue-background: #80E2FF;
+    --yellow-backgroumd: #FFD36A;
+    font-size: 62.50%;
+    /* default font set to 10px */
+}
+
+*{
+
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+
+    color: #182327;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7.6rem; 
+}
+
+h2{
+
+    color: #182327;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.6rem; 
+}
+
+h3{
+
+    color: #182327;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+h4{
+
+    color: #182327;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.primary_button{
+
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--button-color);
+    padding: 1.4rem 2.2rem;
+    border-radius: 1rem;
+}
+
+.wrapper{
+
+    max-width: 80%;
+    margin: auto;
+}
+
+/* default section end */
+
+
+/* header section start */
+
+.headerWrapperflex{
+
+    display: flex;
+    justify-content: space-between;
+    max-height: 10.5rem;
+    align-items: center;
+    margin: 1.2rem 0rem 4.2rem 0rem;
+}
+
+.right_header_flex{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 4.2rem;
+}
+
+.ul_header{
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 6.2rem;
+}
+
+.ul_header a{
+
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #182327;
+    
+}
+
+.search_bar{
+
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem solid #D8E0E2;
+    border-radius: 0.8rem;
+    max-width: 30.30rem;
+}
+
+.search_bar p{
+
+    margin-right: 4rem;
+    margin-left: 0.5rem;
+    color: #5D696D;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.search_bar img{
+
+    margin-left: 1.4rem;
+}
+
+.profile_image{
+
+    width: 6rem;
+    height: 6rem;
+}
+
+/* header section end */
+
+
+/* hero section start */
+
+.hero_container{
+
+    background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%);
+    margin-bottom: 10rem;
+    padding: 6rem 0rem 11rem 0rem;
+}
+
+.heroWrapperflex{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_column_flex{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.hero_column_flex p{
+
+    color: #182327;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    max-width: 50.70rem;
+}
+
+.hero_column_flex h1{
+
+    max-width: 60.70rem;
+}
+
+.hero_column_flex h1::after{
+
+    content: url(heroChipsBowl.png);
+    width: 7.3rem;
+    height: 5.4rem;
+    margin-top: .2rem;
+}
+
+.hero_column_flex .primary_button{
+
+    max-width: 13rem;
+    margin-top: 3rem;
+}
+
+.heroRelative{
+
+    margin-top: 5rem;
+    position: relative;
+    z-index: 10;
+    margin-left: 5rem;
+}
+
+.hero_lays{
+
+    position: absolute;
+    left: -45rem;
+    top: -28rem;
+}
+
+.ImageHeroAbsulate{
+
+    position: absolute;
+    left: -53.7rem;
+    top: -33rem;
+    z-index: -5;
+}
+
+.heroChips{
+
+    position: absolute;
+    top: -7.9rem;
+    left: -49rem;
+    z-index: -1;
+}
+
+.heroChips2{
+
+    position: absolute;
+    top: 10.5rem;
+    left: -10rem;
+}
+
+.heroChips3{
+
+    position: absolute;
+    top: -23.5rem;
+    left: -38rem;
+}
+
+.heroLequidChocolate{
+
+    position: absolute;
+    top: -31.5rem;
+    left: -3rem;
+    z-index: -1;
+}
+
+.heroAbsulate{
+
+    position: absolute;
+    top: -2.4rem;
+    left: 0.6rem;
+    z-index: -2;
+}
+
+.Imagehero_lays{
+
+    margin-left: 5rem;
+}
+
+
+/* hero section end */
+
+
+/* 2nd section start */
+
+.second_header{
+
+    max-width: 56.70rem;
+    margin-bottom: 8.5rem;
+}
+
+.secondWrapperflex{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40rem;
+    margin-bottom: 22.5rem;
+}
+
+.second_relative{
+
+    position: relative;
+    z-index: 10;
+}
+
+.second_relative img{
+
+    padding-left: 10rem;
+}
+
+.second_absulate{
+
+    position: absolute;
+    background-color: #FFE9F4;
+    width: 57rem;
+    height: 48.84rem;
+    border-radius: 0.7rem;
+    top: 14rem;
+    z-index: -1;
+}
+
+.burger{
+
+    position: absolute;
+    top: 20.5rem;
+    left: -10rem;
+    z-index: -1;
+}
+
+.second_section_chips{
+
+    margin-left: 50rem;
+    margin-bottom: 4.7rem;
+}
+
+.second_section h3{
+
+    margin-bottom: 1.2rem;
+}
+
+.second_section .starImage{
+
+    margin-bottom: 1.2rem;
+}
+
+.second_section p{
+
+    color: #5D696D;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin-bottom: 2.2rem;
+    max-width: 50.7rem;
+}
+
+.seeMore{
+
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #182327;
+}
+
+.second_flex{
+
+    display: flex;
+    gap: 2.8rem;
+    align-items: center;
+    margin-top: 3.8rem;
+}
+
+
+/* 2nd section end */
+
+
+/* 3rd setion start */
+
+.third_section_heading{
+
+    margin-bottom: 7rem;
+}
+
+.third_section_heading h2{
+
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+
+.third_section_heading p{
+
+    color: #5D696D;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.thirdWrapperGrid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 18rem;
+    margin-bottom: 5.3rem;
+}
+
+.Third_relative{
+
+    position: relative;
+}
+
+.thirdAbsulate{
+
+    position: absolute;
+    background-color: #F8FFE3;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem;
+}
+
+.thirdAbsulateWavy{
+
+    position: absolute;
+    background-color: #FFE3E4;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem;
+}
+
+.thirdAbsulateClassic{
+
+    position: absolute;
+    background-color: #FFFBD6;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem;
+}
+
+.thirdAbsulateCheddar{
+
+    position: absolute;
+    background-color: #FFEFE3;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem;
+}
+
+.thirdAbsulateSalt{
+
+    position: absolute;
+    background-color: #DDF6FF;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem; 
+}
+
+.thirdAbsulateOnion{
+
+    position: absolute;
+    background-color: #E3FFF3;
+    top: 7rem;
+    left: 0rem;
+    z-index: -1;
+    border-radius: 1.2rem; 
+}
+
+.third_review_section{
+
+    margin-top: 8.5rem;
+}
+
+.Image{
+
+    margin-left: 3rem;
+}
+
+.ImageWavy{
+
+    margin-left: 6rem;
+}
+
+.ImageSalt{
+
+    margin-left: 3rem;
+}
+
+.ImageOnion{
+
+    margin-left: 8rem;
+}
+
+.cartButton{
+
+    position: absolute;
+    top: 36.5rem;
+    left: 28rem;
+}
+
+.Third_relative h3{
+
+    margin-bottom: 1rem;
+}
+
+.Third_relative p{
+
+    margin-bottom: 0.8rem;
+}
+
+.third_button{
+
+    text-align: center;
+}
+
+
+/* 3rd section end */
+
+
+/* 4th section start */
+
+.fourthWrapperflex{
+
+    display: flex;
+    margin-top: 10.56rem;
+    margin-bottom: 4.8rem;
+    gap: 51rem;
+}
+
+.fouth_relative1{
+
+    position: relative;
+}
+
+.fourth_absulate1{
+
+    position: absolute;
+    background-color: #EAFFFC;
+    top: 8rem;
+    left: 0rem;
+    z-index: -1;
+}
+
+.ImageBeers{
+
+    margin-left: 13rem;
+}
+
+.fouth_relative2{
+
+    position: relative;
+}
+
+.fourth_absulate2{
+
+    position: absolute;
+    background-color: #FFEAEC;
+    left: 0rem;
+    top: 18.5rem;
+    z-index: -1;
+}
+
+.playButtonSection{
+
+    margin-top: 11.5rem;
+}
+
+
+.playButtonSection2{
+
+    margin-top: 11rem;
+}
+
+.fouth_relative2 h2{
+
+    margin-bottom: 6rem;
+}
+
+.ImageOndulees{
+
+    margin-left: 12rem;
+}
+
+.playButtonflex{
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.Dot{
+
+    text-align: center;
+}
+
+
+/* 4th section end */
+
+
+/* 5th section start */
+
+
+.fifth_container{
+
+    background: #80E2FF;
+}
+
+.fifthWrapperflex{
+
+    display: flex;
+    margin-top: 10.5rem;
+    margin-bottom: 10.15;
+    justify-content: space-between;
+}
+
+.fifth_inter_flex{
+
+    display: flex;
+    gap: 26.71rem;
+    margin-bottom: 14rem;
+}
+
+.fifthheading h2{
+
+    margin-bottom: 7rem;
+    margin-top: 15.97rem;
+}
+
+.fifthheading p{
+
+    color: #182327;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 3.6rem;
+    max-width: 59.7rem;
+    margin-bottom: 4.8rem;
+}
+
+.fifth_inter_flex h3{
+
+    margin-bottom: 1rem;
+}
+
+.fifth_inter_flex p{
+
+    color: #182327;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.fifth_relative{
+
+    position: relative;
+    z-index: 10;
+}
+
+.fifth_absulate{
+
+    position: absolute;
+    background-color: #FFD36A;
+    z-index: -1;
+    top: 13rem;
+    left: -3rem;
+}
+
+.ImagePerson{
+
+    margin-top: 5rem;
+}
+
+
+
+/* 5th section end */
+
+
+/* 6th section start */
+
+
+.sixth_container{
+
+
+    background-image: url(potatoBackground.png);
+    background-color: var(--yellow-backgroumd);
+}
+
+.sixthWrapper{
+
+    text-align: center;
+    padding: 10rem 0rem;
+}
+
+.sixthWrapper h2{
+
+    margin-bottom: 1.8rem;
+}
+
+.sixthWrapper p{
+
+    color: #182327;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 5.3rem;
+}
+
+
+/* 6th section end */
+
+
+/* footer section start */
+
+
+.footer_container{
+
+    background: #FFF7E3;
+}
+
+.footerWrapperFlex{
+
+    display: flex;
+    padding: 20rem 0rem 25rem 0rem;
+    gap: 40rem;
+    align-items: center;
+}
+
+.footerWrapperFlex h4{
+
+    margin-bottom: 1.6rem;
+    margin-top: 2rem;
+}
+
+.footerWrapperFlex p{
+
+    margin-top: 1.4rem;
+    color: #182327;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.footer_list_flex{
+
+    display: flex;
+    gap: 4.2rem;
+}
+
+.footer_list_flex li{
+
+    list-style-type: none;
+}
+
+.footer_list_flex a{
+
+    text-decoration: none;
+    color: #182327;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.FooterRelative{
+
+    position: relative;
+    z-index: 10;
+    margin-top: -20rem;
+}
+
+.FooterAbsulate{
+
+    position: absolute;
+    background-color: #DDF6FF;
+    left: -1.5rem;
+    z-index: -1;
+}
+
+.footer_wavy{
+
+    position: absolute;
+    left: 22rem;
+    top: 13rem;
+}
+
+.footerImage1{
+
+    position: absolute;
+    left: 4rem;
+    top: 25.79rem;
+    z-index: -1;
+}
+
+.footer_salt{
+
+    position: absolute;
+    top: 6rem;
+    left: 15rem;
+    transform: rotate(45deg);
+}
+
+.footer_onion{
+
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 9rem;
+    top: 10rem;
+}
+
+.footerImage2{
+
+    position: absolute;
+    left: 45rem;
+}
+
+.footerChips{
+
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+}
+
+
+/* footer section end */
