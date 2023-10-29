@@ -73,6 +73,17 @@ h4{
     border-radius: 1rem;
 }
 
+
+/* hover effect for primary buttons start */
+
+.primary_button:hover{
+
+    background-color: rgb(48, 46, 46);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* hover effect for primary buttons end */
+
 .wrapper{
 
     max-width: 80%;
@@ -112,6 +123,20 @@ h4{
     margin: 1.2rem 0rem 4.2rem 0rem;
 }
 
+/* hover for logo start */
+
+.logo{
+
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover{
+
+    transform: scale(1.2);
+}
+
+/* hover for logo end */
+
 .right_header_flex{
 
     display: flex;
@@ -132,8 +157,18 @@ h4{
     text-decoration: none;
     font-size: 1.6rem;
     color: #182327;
-    
+    transition: all 0.3s ease-in-out;
 }
+
+/* hover effect for nav button start */
+
+.ul_header a:hover{
+
+    transform: scale(1.2);
+    font-size: 1.8rem;
+}
+
+/* hover effect for nav button end */
 
 .search_bar{
 
@@ -144,7 +179,18 @@ h4{
     border: 0.1rem solid #D8E0E2;
     border-radius: 0.8rem;
     max-width: 30.30rem;
+    transition: all 0.2s linear;
 }
+
+/* hover effect for search bar start */
+
+.search_bar:hover{
+
+    transform: scale(1.1);
+    font-size: 1.6rem;
+}
+
+/* hover effect for search bar end */
 
 .search_bar p{
 
@@ -166,7 +212,17 @@ h4{
 
     width: 6rem;
     height: 6rem;
+    transition: all 0.2s ease-in;
 }
+
+/* hover effect for profile icon start */
+
+.profile_image:hover{
+
+    transform: scale(1.1);
+}
+
+/* hover effect for profile icon end */
 
 /* header section end */
 
@@ -513,7 +569,17 @@ h4{
     position: absolute;
     top: 36.5rem;
     left: 28rem;
+    transition: all 0.8s ease-in-out;
 }
+
+/* hover effect for cart button start */
+
+.cartButton:hover{
+
+    transform: rotate(360deg);
+}
+
+/* hover effect for cart button end */
 
 .Third_relative h3{
 
@@ -604,7 +670,17 @@ h4{
     align-items: center;
     gap: 0.8rem;
     margin-top: 1.5rem;
+    transition: all 0.2s ease-in-out;
 }
+
+/* hover effect for play button section start */
+
+.playButtonflex:hover{
+
+    transform: rotate(0.1deg);
+}
+
+/* hover effect for play button section end */
 
 .Dot{
 
@@ -783,12 +859,31 @@ h4{
     line-height: 2.8rem;
 }
 
+/* hover for footer list start */
+
+.footer_list_flex a:hover{
+
+    font-size: 1.7rem;
+}
+
+/* hover for footer list end */
+
 .FooterRelative{
 
     position: relative;
     z-index: 10;
     margin-top: -20rem;
+    transition: all 0.3s linear;
 }
+
+/* hover for footer relative start */
+
+.FooterRelative:hover{
+
+    transform: rotate(1deg);
+}
+
+/* hover end for footer relative */
 
 .FooterAbsulate{
 
