@@ -195,3 +195,102 @@ input:focus, textarea:focus{
 }
 
 /* hero section end */
+
+
+/* responsive design start */
+
+
+@media(max-width:1786px){
+
+    .heroWrapperflex{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:750px){
+
+    ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+}
+
+
+@media(max-width:750px){
+
+    html{
+
+        font-size: 50.0%;
+    }
+
+}
+
+
+@media(max-width:550px){
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 45rem;
+        border: 0.1rem solid gray;
+        padding: 4.5rem;
+        margin: 4rem;
+    }
+
+    ul li{
+
+        display: none;
+    }
+
+}
+
+
+@media(max-width:500px){
+
+    form {
+        
+        border: none;
+    }
+
+}
+
+
+@media(max-width:400px){
+
+    html{
+
+        font-size: 40%;
+    }
+
+}
+
+
+@media(max-width:340px){
+
+
+    form{
+
+        width: 35rem;
+    }
+
+    textarea{
+
+        height: 16rem;
+    }
+
+}
+
+
+
+/* responsive design end */
