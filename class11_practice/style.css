@@ -74,6 +74,47 @@ li{
     list-style-type: none;
 }
 
+.drop_down_hover{
+
+    position: relative;
+}
+
+
+.drop_down_content{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 18rem;
+    gap: 0.6rem;
+    margin-top: 0.1rem;
+    background-color: aliceblue;
+    padding: 1.2rem;
+    border: 0.1rem solid rgb(221, 218, 218);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.8rem;
+    z-index: 99;
+    display: none;
+}
+
+.drop_down_hover:hover .drop_down_content{
+
+    display: flex;
+}
+
+.drop_down_content a:hover{
+
+    color: blue;
+}
+
+
+.Hover_link:hover {
+
+    color: blue;
+}
+
+
+
 /* header section style end */
 
 
