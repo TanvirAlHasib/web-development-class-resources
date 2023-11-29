@@ -28,7 +28,31 @@ body{
 /* css for calculator start here */
 
 
+.main_container{
 
+    margin-top: 5rem;
+}
+
+.wrapper_column_flex{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+input{
+
+    font-size: 2.2rem;
+    padding: 1.2rem;
+    border: 0.1rem solid rgb(243, 242, 242);
+}
+
+.input_section{
+
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
 
 
 /* css for calculator end here */
