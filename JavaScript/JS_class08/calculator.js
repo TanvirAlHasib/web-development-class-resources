@@ -20,6 +20,7 @@ function close_popup(){
 
 function add(){
 
+    display.innerText = "Result:";
     if ((value1.value) && (value2.value)) {
 
         let sum = parseInt(value1.value) + parseInt(value2.value);
