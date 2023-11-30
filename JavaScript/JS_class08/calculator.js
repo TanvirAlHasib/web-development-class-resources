@@ -81,7 +81,7 @@ function dev(){
     if ((value1.value) && (value2.value)) {
 
         let dev = parseInt(value1.value) / parseInt(value2.value);
-        display.innerText = display.innerText+" "+dev;
+        display.innerText = display.innerText+" "+dev.toFixed(4);
 
     } else{
 
