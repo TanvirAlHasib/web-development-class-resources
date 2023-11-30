@@ -71,3 +71,22 @@ function multip(){
     }
 
 }
+
+
+// multip button function
+
+function dev(){
+
+    display.innerText = "Result:";
+    if ((value1.value) && (value2.value)) {
+
+        let dev = parseInt(value1.value) / parseInt(value2.value);
+        display.innerText = display.innerText+" "+dev;
+
+    } else{
+
+        open_popup.classList.add("open_popup");
+
+    }
+
+}
