@@ -40,6 +40,11 @@ body{
     gap: 3rem;
 }
 
+.wrapper_column_flex h1{
+
+    font-size: 3.8rem;
+}
+
 input{
 
     font-size: 2.2rem;
