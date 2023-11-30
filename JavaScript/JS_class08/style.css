@@ -44,7 +44,15 @@ input{
 
     font-size: 2.2rem;
     padding: 1.2rem;
+    padding-left: 4rem;
     border: 0.1rem solid rgb(243, 242, 242);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 1rem;
+}
+
+input:focus{
+
+    outline: none;
 }
 
 .input_section{
