@@ -33,3 +33,22 @@ function add(){
     }
 
 }
+
+
+// sub button function
+
+function sub(){
+
+    display.innerText = "Result:";
+    if ((value1.value) && (value2.value)) {
+
+        let sub = parseInt(value1.value) - parseInt(value2.value);
+        display.innerText = display.innerText+" "+sub;
+
+    } else{
+
+        open_popup.classList.add("open_popup");
+
+    }
+
+}
