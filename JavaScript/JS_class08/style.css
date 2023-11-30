@@ -114,6 +114,12 @@ button:focus{
     transform: translate(-50% , -50%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 1rem;
+    visibility: hidden;
+}
+
+.open_popup{
+
+    visibility: visible;
 }
 
 .popup_layout img{

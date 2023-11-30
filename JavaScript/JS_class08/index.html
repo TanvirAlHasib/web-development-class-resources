@@ -34,7 +34,7 @@
                             Result:
                         </h2>
                         <div class="button_section">
-                            <button>ADD +</button>
+                            <button onclick="add()">ADD +</button>
                             <button>SUB -</button>
                             <button>MULTIP x</button>
                             <button>DEV /</button>
@@ -53,13 +53,13 @@
 
             <div class="container">
 
-                <div class="popup_layout">
+                <div class="popup_layout" id="popup">
 
                     <img src="alert_image.png" alt="error image">
                     <h3>
                         Please enter all the values.
                     </h3>
-                    <button>Ok</button>
+                    <button onclick="close_popup()">Ok</button>
                 </div>
             </div>
 
