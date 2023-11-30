@@ -52,3 +52,22 @@ function sub(){
     }
 
 }
+
+
+// multip button function
+
+function multip(){
+
+    display.innerText = "Result:";
+    if ((value1.value) && (value2.value)) {
+
+        let multip = parseInt(value1.value) * parseInt(value2.value);
+        display.innerText = display.innerText+" "+multip;
+
+    } else{
+
+        open_popup.classList.add("open_popup");
+
+    }
+
+}
