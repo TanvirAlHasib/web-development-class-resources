@@ -21,6 +21,11 @@ body{
 
 }
 
+button{
+
+    cursor: pointer;
+}
+
 
 /* default section end here */
 
