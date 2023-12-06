@@ -3,9 +3,6 @@
 const form = document.getElementById("new_task");
 const input = document.getElementById("input_task");
 const tasklist = document.querySelector(".taskList");
-const editBtn = document.getElementById("edit");
-const deleteBtn = document.getElementById("delete");
-const completeBtn = document.getElementById("complete");
 
 
 // for form section
@@ -47,6 +44,14 @@ form.addEventListener("submit", (event)=>{
         edit_button.innerHTML="EDIT";
         taskListInputDisplay.appendChild(edit_button);
 
+        //edit button fuctional
+        edit_button.addEventListener("click", () => {
+
+            input_display.removeAttribute("readOnly");
+            edit_button.innerHTML = "SAVE";
+
+        })
+
         // delete button creating
         const delete_button = document.createElement("button");
         delete_button.classList.add("delete");
@@ -66,7 +71,3 @@ form.addEventListener("submit", (event)=>{
     }
 
 });
-
-
-// for edit button
-
