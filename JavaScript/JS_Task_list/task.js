@@ -31,6 +31,7 @@ form.addEventListener("submit", (event)=>{
         // input_display creating
         const input_display = document.createElement("input");
         input_display.classList.add("input_display");
+        input_display.value = input_value;
         taskListInputDisplay.appendChild(input_display);
 
         //edit button creating
