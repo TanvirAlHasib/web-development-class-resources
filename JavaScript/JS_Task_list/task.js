@@ -15,6 +15,8 @@ form.addEventListener("submit", (event)=>{
 
     if(input_value){
 
+        // clear input area 
+        input.value = "";
 
         // task list content div creating
         const task_list_content = document.createElement("div");
