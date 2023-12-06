@@ -60,6 +60,7 @@ form.addEventListener("submit", (event)=>{
                 if (complete_button.innerHTML === "COMPLETED") {
 
                     alert("task has completed, you cann't edit now");
+
                     
                 } else {
                     
@@ -71,7 +72,7 @@ form.addEventListener("submit", (event)=>{
 
             }
 
-        })
+        });
 
         // delete button creating
         const delete_button = document.createElement("button");
@@ -84,7 +85,7 @@ form.addEventListener("submit", (event)=>{
 
             tasklist.removeChild(task_list_content);
 
-        })
+        });
 
         //complete button creating
         const complete_button = document.createElement("button");
@@ -99,6 +100,7 @@ form.addEventListener("submit", (event)=>{
                 
                 complete_button.innerHTML = "COMPLETED";
                 input_display.classList.add("done_display_view");
+                edit_button.innerHTML = "EDIT";
 
             } else {
 
@@ -106,12 +108,12 @@ form.addEventListener("submit", (event)=>{
 
             }
 
-        })
+        });
 
 
     } else{
 
-        alert("please input all values");
+        alert("please input your task.");
     }
 
 });
