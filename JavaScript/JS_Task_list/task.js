@@ -47,8 +47,21 @@ form.addEventListener("submit", (event)=>{
         //edit button fuctional
         edit_button.addEventListener("click", () => {
 
-            input_display.removeAttribute("readOnly");
-            edit_button.innerHTML = "SAVE";
+            if (edit_button.innerHTML === "EDIT") {
+                
+                input_display.removeAttribute("readOnly");
+                edit_button.innerHTML = "SAVE";
+                input_display.style.outline = "solid";
+                input_display.style.outlineColor = "#023e8a";
+                input_display.focus();
+
+            } else{
+
+                input_display.setAttribute("readOnly", "readOnly");
+                edit_button.innerHTML = "EDIT";
+                input_display.style.outline = "none";
+
+            }
 
         })
 
