@@ -3,6 +3,12 @@
 const form = document.getElementById("new_task");
 const input = document.getElementById("input_task");
 const tasklist = document.querySelector(".taskList");
+const editBtn = document.getElementById("edit");
+const deleteBtn = document.getElementById("delete");
+const completeBtn = document.getElementById("complete");
+
+
+// for form section
 
 form.addEventListener("submit", (event)=>{
 
@@ -60,3 +66,7 @@ form.addEventListener("submit", (event)=>{
     }
 
 });
+
+
+// for edit button
+
