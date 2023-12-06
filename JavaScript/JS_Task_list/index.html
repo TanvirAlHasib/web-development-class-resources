@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- logo -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>ToDoList</title>
+</head>
+<body>
+
+    <!-- main section start -->
+
+
+    <main>
+
+        <section>
+
+            <div class="container">
+
+                <div class="wrapper">
+                    
+                    <div class="formWrapper">
+
+                        <h1>
+                            My 2023 task lists!
+                        </h1>
+                        <form id="new_task" class="new_task">
+    
+                            <input type="text" id="input_task" class="input_task" placeholder="What is your next task ?">
+                            <input type="submit" value="ADD NEW TASK">
+                        </form>
+                    </div>
+
+                    <div class="tasklistWrapper">
+
+                        <div id="taskList">
+
+                            <h2>
+                                My Current Tasks
+                            </h2>
+                            <div class="taskList">
+
+                                <div class="taskListContent">
+
+                                    <div class="taskListInputDisplay">
+
+                                        <input type="text" class="input_display" id="input_display" readonly>
+                                        <button id="edit" class="edit">EDIT</button>
+                                        <button id="delete" class="delete">DELETE</button>
+                                        <button id="complete" class="complete">COMPLETE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- main section end -->
+    
+</body>
+</html>
