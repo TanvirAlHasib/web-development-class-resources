@@ -71,6 +71,13 @@ form.addEventListener("submit", (event)=>{
         delete_button.innerHTML="DELETE";
         taskListInputDisplay.appendChild(delete_button);
 
+        // delete button functional
+        delete_button.addEventListener("click", () => {
+
+            tasklist.removeChild(task_list_content);
+
+        })
+
         //complete button creating
         const complete_button = document.createElement("button");
         complete_button.classList.add("complete");
