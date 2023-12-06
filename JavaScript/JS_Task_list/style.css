@@ -38,7 +38,7 @@ body{
 
 .formWrapper{
 
-    margin: 5rem 0rem 9rem 0rem;
+    margin: 5rem 0rem 8.5rem 0rem;
 }
 
 .formWrapper h1{
@@ -60,9 +60,80 @@ body{
 
 #submit_btn{
 
-    padding: 1.5rem;
+    padding: 1.2rem 1.5rem;
     font-size: 1.8rem;
     background-color: #075ecf;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+
+.taskList{
+
+    border: 0.1rem solid #002D67;
+    padding: 2rem 2rem 4.5rem 2rem;
+    background-color: #00193B;
+}
+
+.taskListContent{
+
+    background-color: #00132D;
+    padding: 1rem;
+}
+
+#taskList h2{
+
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.input_display{
+
+    width: 100%;
+    padding: 1rem;
+    font-size: 2.2rem;
+    background-color: #00132D;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid #002D67;
+    margin-bottom: 2rem;
+}
+
+.edit{
+
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    background-color: #075ecf;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.delete{
+
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    background-color: #720909;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0rem 0.4rem;
+}
+
+.complete{
+
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    background-color: #0a490f;
     color: white;
     outline: none;
     cursor: pointer;
