@@ -84,6 +84,22 @@ form.addEventListener("submit", (event)=>{
         complete_button.innerHTML="COMPLETE";
         taskListInputDisplay.appendChild(complete_button);
 
+        // complete button functional
+        complete_button.addEventListener("click", () => {
+
+            if (complete_button.innerHTML === "COMPLETE") {
+                
+                complete_button.innerHTML = "COMPLETED";
+                input_display.classList.add("done_display_view");
+
+            } else {
+
+                alert("You have completed this task");
+
+            }
+
+        })
+
 
     } else{
 

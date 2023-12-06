@@ -105,6 +105,20 @@ body{
     color: white;
 }
 
+.done_display_view{
+
+    width: 100%;
+    padding: 1rem;
+    font-size: 2.2rem;
+    background-color: #00132D;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid #002D67;
+    margin-bottom: 2rem;
+    color: rgb(187, 185, 185);
+    text-decoration: line-through;
+}
+
 .edit{
 
     padding: 1rem 1.5rem;
