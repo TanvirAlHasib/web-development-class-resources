@@ -32,6 +32,7 @@ form.addEventListener("submit", (event)=>{
         const input_display = document.createElement("input");
         input_display.classList.add("input_display");
         input_display.value = input_value;
+        input_display.setAttribute("readOnly", "readOnly");
         taskListInputDisplay.appendChild(input_display);
 
         //edit button creating
