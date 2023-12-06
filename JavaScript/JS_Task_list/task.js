@@ -47,7 +47,7 @@ form.addEventListener("submit", (event)=>{
         //edit button fuctional
         edit_button.addEventListener("click", () => {
 
-            if (edit_button.innerHTML === "EDIT") {
+            if (edit_button.innerHTML === "EDIT" && complete_button.innerHTML === "COMPLETE") {
                 
                 input_display.removeAttribute("readOnly");
                 edit_button.innerHTML = "SAVE";
@@ -57,9 +57,17 @@ form.addEventListener("submit", (event)=>{
 
             } else{
 
-                input_display.setAttribute("readOnly", "readOnly");
-                edit_button.innerHTML = "EDIT";
-                input_display.style.outline = "none";
+                if (complete_button.innerHTML === "COMPLETED") {
+
+                    alert("task has completed, you cann't edit now");
+                    
+                } else {
+                    
+                    input_display.setAttribute("readOnly", "readOnly");
+                    edit_button.innerHTML = "EDIT";
+                    input_display.style.outline = "none";
+
+                }
 
             }
 
