@@ -1,7 +1,86 @@
+/* font import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* font import end */
+
+
+/* default section start */
+
+html{
+
+    font-size: 62.50%;
+    /* default font size set to 10px */
+}
+
+*{
+
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+/* default section end */
+
+
+/* body section start */
+
+
 body{
 
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Inter', sans-serif;
 
 }
+
+
+/* body section end */
+
+
+/* main section start */
+
+
+.item_flex{
+
+    display: flex;
+    gap: 3rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+
+    padding: 0.8rem 2rem;
+    border: solid 0.5rem rgb(29, 28, 28);
+    background-color: rgb(0 0 0 / 53%);;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.hit_effect{
+
+    transform: scale(1.1);
+    border: solid 0.5rem yellow;
+    box-shadow: yellow 0px 5px 15px;
+}
+
+kbd{
+
+    color: white;
+    font-size: 6.2rem;
+}
+
+h4{
+
+    color: yellow;
+    font-size: 1.3rem;
+}
+
+
+/* main section end */
