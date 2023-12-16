@@ -32,3 +32,16 @@ window.addEventListener("keydown", (e) => {
 
 // for disapearing the effect after transition
 
+keys.forEach((key) => {
+
+    key.addEventListener("transitionend", (e) =>{
+
+        if (e.propertyName === "transform") {
+            
+            key.classList.remove("hit_effect");
+
+        }
+
+    })
+
+})
