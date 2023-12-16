@@ -36,7 +36,7 @@ keys.forEach((key) => {
 
     key.addEventListener("transitionend", (e) =>{
 
-        if (e.propertyName === "transform") {
+        if (e.propertyName) {
             
             key.classList.remove("hit_effect");
 
