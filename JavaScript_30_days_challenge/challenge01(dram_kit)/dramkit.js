@@ -26,7 +26,7 @@ window.addEventListener("keydown", (e) => {
 
         alert("music have only a,s,d,f,g,h,j,k,l in these keys");
 
-    }
+    };
 
 });
 
@@ -42,6 +42,6 @@ keys.forEach((key) => {
 
         }
 
-    })
+    });
 
-})
+});
