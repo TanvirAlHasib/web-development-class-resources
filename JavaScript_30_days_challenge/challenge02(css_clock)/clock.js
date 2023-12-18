@@ -26,7 +26,7 @@ function watch(){
     minute.style.transform = `rotate(${mindeg}deg) translate(1rem)`;
 
     hour.style.transform = `rotate(${hourrdeg}deg) translate(1rem)`;
-
+    
 }
 
 
