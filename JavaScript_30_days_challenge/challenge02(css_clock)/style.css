@@ -66,6 +66,7 @@ body{
     transform-origin: 100%;
     transform: rotate(90deg) translate(1rem);
     border-radius: 0.5rem;
+    transition: all 0.2s cubic-bezier(0, 3.41, 0.58, 1);
 }
 
 .center_point{
