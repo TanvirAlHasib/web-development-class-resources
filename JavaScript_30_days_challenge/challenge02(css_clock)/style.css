@@ -69,6 +69,18 @@ body{
     transition: all 0.2s cubic-bezier(0, 3.41, 0.58, 1);
 }
 
+.minute{
+
+    width: 45%;
+    left: 5%;
+}
+
+.hour{
+
+    width: 40%;
+    left: 10%;
+}
+
 .center_point{
 
     position: absolute;
