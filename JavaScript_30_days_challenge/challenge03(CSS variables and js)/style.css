@@ -33,7 +33,7 @@ body{
 
     --color: #D5BDAF;
     --spacing: 1.5rem;
-    --blur: 1rem;
+    --blur: 0rem;
 }
 
 
@@ -80,6 +80,7 @@ img{
     height: 70rem;
     padding: var(--spacing);
     background-color: var(--color);
+    filter: blur(var(--blur));
 }
 
 span{
