@@ -31,7 +31,7 @@ body{
 
 :root{
 
-    --color: #F5EBE0;
+    --color: #D5BDAF;
     --spacing: 1.5rem;
     --blur: 1rem;
 }
@@ -55,7 +55,7 @@ body{
 h1{
 
     font-size: 4.5rem;
-    color: rgb(26, 17, 43);
+    color: rgb(23, 8, 43);
     margin: 5rem 0rem;
 }
 
@@ -78,13 +78,13 @@ img{
 
     width: 100rem;
     height: 70rem;
-    padding: 1.5rem;
-    background-color: #F5EBE0;
+    padding: var(--spacing);
+    background-color: var(--color);
 }
 
 span{
 
-    background-color: #F5EBE0;
+    background-color: var(--color);
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
