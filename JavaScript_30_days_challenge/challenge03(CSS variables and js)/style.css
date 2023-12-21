@@ -66,4 +66,19 @@ label{
 }
 
 
+img{
+
+    width: 100rem;
+    height: 70rem;
+    padding: 1.5rem;
+    background-color: #F5EBE0;
+}
+
+span{
+
+    background-color: #F5EBE0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
 /* main section end here */
