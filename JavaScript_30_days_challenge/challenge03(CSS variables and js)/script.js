@@ -6,7 +6,8 @@ inputs.forEach(input => {
 
     input.addEventListener("change", () => {
 
-        console.log(input.name, input.value);
+        const suffix = input.dataset.sizing;
+        console.log(suffix);
 
     });
 
