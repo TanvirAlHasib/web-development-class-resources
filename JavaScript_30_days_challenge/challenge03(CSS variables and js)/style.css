@@ -30,3 +30,40 @@ body{
 
 
 /* default section end */
+
+
+/* main section start here */
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1{
+
+    font-size: 4.5rem;
+    color: rgb(26, 17, 43);
+    margin: 5rem 0rem;
+}
+
+.elements{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+label{
+
+    padding-right: 2rem;
+    font-size: 3rem;
+}
+
+
+/* main section end here */
