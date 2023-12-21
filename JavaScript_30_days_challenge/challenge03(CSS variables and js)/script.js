@@ -11,4 +11,18 @@ inputs.forEach(input => {
 
     });
 
+    input.addEventListener("mousemove", () =>{
+
+        const suffix = input.dataset.sizing || "";
+        document.documentElement.style.setProperty(`--${input.name}`,input.value + suffix);
+
+    });
+
+    input.addEventListener("click", () =>{
+
+        const suffix = input.dataset.sizing || "";
+        document.documentElement.style.setProperty(`--${input.name}`,input.value + suffix);
+
+    });
+
 });
