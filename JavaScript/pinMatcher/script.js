@@ -37,7 +37,12 @@ function randomPinGenaration() {
 //pin genarated section end
 
 
+
+
+
 // pin display section start
+
+
 
 // taking input from display
 buttons.forEach(button => {
@@ -55,7 +60,7 @@ buttons.forEach(button => {
 
                 alert("here is nothing to erase");
             }
-            //earse button start
+            //earse button end
             
         } else {
 
@@ -65,6 +70,8 @@ buttons.forEach(button => {
     });
 
 });
+
+
 
 // taking input from keyboard for pin
 window.addEventListener("keydown", (e) => {
@@ -86,6 +93,8 @@ window.addEventListener("keydown", (e) => {
             alert("here is nothing to erase");
         }
 
+        //erase button end
+
     } else{
 
         alert("please enter digits");
@@ -95,3 +104,17 @@ window.addEventListener("keydown", (e) => {
 
 
 // pin display section end
+
+
+
+
+//pin match section start
+
+
+
+
+
+
+
+
+//pin match section end
