@@ -37,7 +37,7 @@ function randomPinGenaration() {
 //pin genarated section end
 
 
-// pin match section start
+// pin display section start
 
 // taking input from display
 buttons.forEach(button => {
@@ -94,4 +94,4 @@ window.addEventListener("keydown", (e) => {
 });
 
 
-// pin match section end
+// pin display section end
