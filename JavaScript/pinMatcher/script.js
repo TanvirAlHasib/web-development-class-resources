@@ -150,17 +150,23 @@ submit.addEventListener("click", () => {
 
             //try left section start 
 
-            if (parseInt(tryLeft.innerHTML) > 0) {
+            if (parseInt(tryLeft.innerHTML) > 1) {
 
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
                 
+            } else {
+
+                pinGenarateButton.setAttribute("disabled", "disabled");
+                submit.setAttribute("disabled", "disabled");
+                tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
+
             }
 
             //try left section end
     
         }
         
-    }
+    };
 
 })
 
