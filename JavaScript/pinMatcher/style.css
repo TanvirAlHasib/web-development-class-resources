@@ -18,7 +18,6 @@ html{
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    border: none;
 }
 
 
@@ -36,3 +35,20 @@ body{
 
 
 /* body style end here */
+
+
+/* main section style start here */
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+/* main section style end here */
