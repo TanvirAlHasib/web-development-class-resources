@@ -1,0 +1,25 @@
+/* font import start */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* font import end */
+
+
+/* default section start */
+
+html{
+
+    font-size: 62.50%;
+    /* default font size set to 10px */
+}
+
+*{
+
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+/* default section end */
