@@ -38,7 +38,7 @@ function randomPinGenaration() {
 
 // pin match section start
 
-
+// taking input from display
 buttons.forEach(button => {
 
     button.addEventListener("click", () => {
@@ -49,9 +49,10 @@ buttons.forEach(button => {
 
 });
 
-
+// taking input from keyboard for pin
 window.addEventListener("keypress", (e) => {
 
+    //checking is it digit or string
     if (isFinite(e.key)) {
 
         showDailedValue.value += e.key;
