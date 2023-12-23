@@ -4,9 +4,18 @@ const genaratedPin = document.getElementById("genaratedPin");
 const pinGenarateButton = document.getElementById("pinGenarateButton");
 const showDailedValue = document.getElementById("showDailedValue");
 const eraseButton = document.getElementById("erase");
+const submit = document.getElementById("submit");
+const notificationSection = document.querySelector(".notificationSection");
+const correctNotification = document.querySelector(".correctNotification");
+const wrongNotification = document.querySelector(".wrongNotification");
+const tryLeft = document.getElementById("tryLeft");
 // from buttons div taking all buttons
 const buttons = document.querySelectorAll(".buttons button");
 let genaratedPinCount = 3;
+
+
+//initially hiding notification section
+notificationSection.style.display = "none";
 
 
 // pin genarated section start
@@ -24,10 +33,12 @@ function randomPinGenaration() {
         
         genaratedPin.value = randomNumber;
         genaratedPinCount = genaratedPinCount - 1;
+        
 
     } else{
 
         alert("you have already genarated pins three times");
+        genaratedPin.value = "";
 
     };
 };
@@ -112,7 +123,46 @@ window.addEventListener("keydown", (e) => {
 
 
 
+// pin checking from display submit button
+submit.addEventListener("click", () => {
 
+    if (genaratedPin.value === "" || showDailedValue.value === "") {
+
+        alert("please fill up all sections");
+        
+    } else {
+
+        if (showDailedValue.value === genaratedPin.value) {
+        
+            notificationSection.style.display = "flex";
+            wrongNotification.style.display = "none";
+            correctNotification.style.display = "inline";
+            genaratedPin.value = "";
+            showDailedValue.value = "";
+    
+        } else {
+            
+            notificationSection.style.display = "flex";
+            correctNotification.style.display = "none";
+            wrongNotification.style.display = "inline";
+            genaratedPin.value = "";
+            showDailedValue.value = "";
+
+            //try left section start 
+
+            if (parseInt(tryLeft.innerHTML) > 0) {
+
+                tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
+                
+            }
+
+            //try left section end
+    
+        }
+        
+    }
+
+})
 
 
 
