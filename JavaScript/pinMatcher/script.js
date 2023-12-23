@@ -39,6 +39,9 @@ function randomPinGenaration() {
 
         alert("you have already genarated pins three times");
         genaratedPin.value = "";
+        pinGenarateButton.setAttribute("disabled", "disabled");
+        submit.setAttribute("disabled", "disabled");
+        tryLeft.innerHTML = "sorry, you have alredy genarated 3 pins, so no" // try left from p tag's innterHTML
 
     };
 };
@@ -139,6 +142,8 @@ submit.addEventListener("click", () => {
             correctNotification.style.display = "inline";
             genaratedPin.value = "";
             showDailedValue.value = "";
+            pinGenarateButton.setAttribute("disabled", "disabled");
+            submit.setAttribute("disabled", "disabled");
     
         } else {
             
@@ -160,15 +165,15 @@ submit.addEventListener("click", () => {
                 submit.setAttribute("disabled", "disabled");
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
 
-            }
+            };
 
             //try left section end
     
-        }
+        };
         
     };
 
-})
+});
 
 
 
