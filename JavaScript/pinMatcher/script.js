@@ -2,6 +2,9 @@
 
 const genaratedPin = document.getElementById("genaratedPin");
 const pinGenarateButton = document.getElementById("pinGenarateButton");
+const showDailedValue = document.getElementById("showDailedValue");
+// from buttons div taking all buttons
+const buttons = document.querySelectorAll(".buttons button");
 let genaratedPinCount = 3;
 
 
@@ -25,9 +28,41 @@ function randomPinGenaration() {
 
         alert("you have already genarated pins three times");
 
-    }
-}
+    };
+};
 
 
 
 //pin genarated section end
+
+
+// pin match section start
+
+
+buttons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        showDailedValue.value += button.innerHTML;
+
+    });
+
+});
+
+
+window.addEventListener("keypress", (e) => {
+
+    if (isFinite(e.key)) {
+
+        showDailedValue.value += e.key;
+
+    } else {
+        
+        alert("please enter only digits");
+
+    }
+
+});
+
+
+// pin match section end
