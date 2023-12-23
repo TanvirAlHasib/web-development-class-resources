@@ -3,6 +3,7 @@
 const genaratedPin = document.getElementById("genaratedPin");
 const pinGenarateButton = document.getElementById("pinGenarateButton");
 const showDailedValue = document.getElementById("showDailedValue");
+const eraseButton = document.getElementById("erase");
 // from buttons div taking all buttons
 const buttons = document.querySelectorAll(".buttons button");
 let genaratedPinCount = 3;
@@ -43,25 +44,52 @@ buttons.forEach(button => {
 
     button.addEventListener("click", () => {
 
-        showDailedValue.value += button.innerHTML;
+        //earse button start
+        if (button.innerHTML === "x") {
+
+            if (showDailedValue.value) {
+
+                showDailedValue.value = showDailedValue.value.slice(0,-1);
+
+            } else {
+
+                alert("here is nothing to erase");
+            }
+            //earse button start
+            
+        } else {
+
+            showDailedValue.value += button.innerHTML;
+        }
 
     });
 
 });
 
 // taking input from keyboard for pin
-window.addEventListener("keypress", (e) => {
+window.addEventListener("keydown", (e) => {
 
     //checking is it digit or string
     if (isFinite(e.key)) {
 
         showDailedValue.value += e.key;
 
-    } else {
-        
-        alert("please enter only digits");
+    } else if (e.key === "Backspace") {
 
-    }
+        //earse button start
+        if (showDailedValue.value) {
+
+            showDailedValue.value = showDailedValue.value.slice(0,-1);
+
+        } else {
+
+            alert("here is nothing to erase");
+        }
+
+    } else{
+
+        alert("please enter digits");
+    };
 
 });
 
