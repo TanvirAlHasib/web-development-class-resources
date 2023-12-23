@@ -51,4 +51,11 @@ body{
 }
 
 
+.pin_genaratorSection{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* main section style end here */
