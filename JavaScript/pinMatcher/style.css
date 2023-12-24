@@ -79,6 +79,9 @@ body{
     gap: 5rem;
     width: 30rem;
     background-color: #001E45;
+    border-radius: 2rem;
+    border: solid 0.2rem #002657;
+    padding: 6rem 10rem 5rem 10rem;
 }
 
 
@@ -103,16 +106,22 @@ body{
     padding: 1rem 0rem;
     font-size: 2.5rem;
     border-radius: 1rem;
+    background-color: #00132D;
+    color: white;
+    border: solid 0.2rem #002657;
 }
 
 #submit{
 
     display: inline-block;
-    padding: 0.8rem 0.5rem;
+    padding: 1rem 0.5rem;
     font-size: 2.5rem;
     border-radius: 1rem;
     margin-top: 1rem;
     font-weight: 600;
+    background-color: #00132D;
+    color: white;
+    border: solid 0.2rem #002657;
 }
 
 
@@ -147,6 +156,7 @@ input{
 
     font-size: 2rem;
     text-align: center;
+    color: rgb(9, 224, 9);
 }
 
 
