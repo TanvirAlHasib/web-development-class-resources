@@ -9,6 +9,7 @@ const notificationSection = document.querySelector(".notificationSection");
 const correctNotification = document.querySelector(".correctNotification");
 const wrongNotification = document.querySelector(".wrongNotification");
 const tryLeft = document.getElementById("tryLeft");
+const tryLeftClass = document.querySelector(".tryLeft");
 // from buttons div taking all buttons
 const buttons = document.querySelectorAll(".buttons button");
 let genaratedPinCount = 3;
@@ -144,6 +145,9 @@ submit.addEventListener("click", () => {
             showDailedValue.value = "";
             pinGenarateButton.setAttribute("disabled", "disabled");
             submit.setAttribute("disabled", "disabled");
+            submit.style.backgroundColor = "rgb(9, 224, 9)";
+            tryLeftClass.innerHTML = "Pin has matched";
+            tryLeftClass.style.color = "rgb(9, 224, 9)";
     
         } else {
             
@@ -158,12 +162,19 @@ submit.addEventListener("click", () => {
             if (parseInt(tryLeft.innerHTML) > 1) {
 
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
+
+                if (parseInt((tryLeft.innerHTML)) === 2) {
+
+                    tryLeftClass.style.color = "rgb(255, 165, 0)";
+                    
+                };
                 
             } else {
 
                 pinGenarateButton.setAttribute("disabled", "disabled");
                 submit.setAttribute("disabled", "disabled");
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
+                tryLeftClass.style.color = "#FF0000";
 
             };
 
