@@ -146,6 +146,8 @@ submit.addEventListener("click", () => {
             pinGenarateButton.setAttribute("disabled", "disabled");
             submit.setAttribute("disabled", "disabled");
             submit.style.backgroundColor = "rgb(9, 224, 9)";
+            pinGenarateButton.style.backgroundColor = "rgb(9, 224, 9)";
+            pinGenarateButton.style.border = "rgb(9, 224, 9)";
             tryLeftClass.innerHTML = "Pin has matched";
             tryLeftClass.style.color = "rgb(9, 224, 9)";
     
@@ -175,7 +177,9 @@ submit.addEventListener("click", () => {
                 submit.setAttribute("disabled", "disabled");
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
                 tryLeftClass.style.color = "#FF0000";
-
+                submit.style.backgroundColor = "#FF0000";
+                pinGenarateButton.style.backgroundColor = "#FF0000";
+                pinGenarateButton.style.border = "#8B0000";
             };
 
             //try left section end
