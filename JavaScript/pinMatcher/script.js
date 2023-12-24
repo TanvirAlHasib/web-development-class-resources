@@ -10,6 +10,7 @@ const correctNotification = document.querySelector(".correctNotification");
 const wrongNotification = document.querySelector(".wrongNotification");
 const tryLeft = document.getElementById("tryLeft");
 const tryLeftClass = document.querySelector(".tryLeft");
+const tryFinished = document.querySelector(".tryFinished");
 // from buttons div taking all buttons
 const buttons = document.querySelectorAll(".buttons button");
 let genaratedPinCount = 3;
@@ -140,6 +141,7 @@ submit.addEventListener("click", () => {
         
             notificationSection.style.display = "flex";
             wrongNotification.style.display = "none";
+            tryFinished.style.display = "none";
             correctNotification.style.display = "inline";
             genaratedPin.value = "";
             showDailedValue.value = "";
@@ -155,6 +157,7 @@ submit.addEventListener("click", () => {
             
             notificationSection.style.display = "flex";
             correctNotification.style.display = "none";
+            tryFinished.style.display = "none";
             wrongNotification.style.display = "inline";
             genaratedPin.value = "";
             showDailedValue.value = "";
@@ -176,6 +179,9 @@ submit.addEventListener("click", () => {
                 pinGenarateButton.setAttribute("disabled", "disabled");
                 submit.setAttribute("disabled", "disabled");
                 tryLeft.innerHTML = parseInt(tryLeft.innerHTML) - 1 ;
+                tryFinished.style.display = "inline";
+                correctNotification.style.display = "none";
+                wrongNotification.style.display = "none";
                 tryLeftClass.style.color = "#FF0000";
                 submit.style.backgroundColor = "#FF0000";
                 pinGenarateButton.style.backgroundColor = "#FF0000";
