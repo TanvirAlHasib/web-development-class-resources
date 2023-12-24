@@ -44,6 +44,10 @@ function randomPinGenaration() {
         pinGenarateButton.setAttribute("disabled", "disabled");
         submit.setAttribute("disabled", "disabled");
         tryLeft.innerHTML = "sorry, you have alredy genarated 3 pins, so no" // try left from p tag's innterHTML
+        tryLeftClass.style.color = "#FF0000";
+        submit.style.backgroundColor = "#FF0000";
+        pinGenarateButton.style.backgroundColor = "#FF0000";
+        pinGenarateButton.style.border = "#8B0000";
 
     };
 };
