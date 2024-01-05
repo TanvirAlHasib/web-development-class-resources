@@ -61,6 +61,12 @@ body{
 
 }
 
+.picked_color_lists{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .picked_color_tittle p{
 
     font-size: 18px;
@@ -125,7 +131,6 @@ li{
 
     width: 15px;
     height: 15px;
-    background-color: white;
     border-radius: 3px;
 }
 
