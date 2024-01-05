@@ -1,0 +1,133 @@
+
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+/* body */
+body{
+
+    font-family: 'EB Garamond', serif;
+
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+/* main section start */
+
+
+.main_container{
+
+    width: 450px;
+    /* height: 250px; */
+    background-color: #CAF0F8;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+
+}
+
+.wrapperFlex{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.extension_tittle{
+
+    font-size: 23px;
+    width: fit-content;
+    color: black;
+    font-weight: 700;
+
+}
+
+.picked_color_tittle{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: dotted 1px #023E8A;
+    padding-bottom: 5px;
+    align-items: center;
+
+}
+
+.picked_color_tittle p{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.picked_color_tittle button{
+
+    width: fit-content;
+    background-color: #03045E;
+    padding: 8px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+#pick{
+
+    display: inline-block;
+    width: fit-content;
+    background-color: #03045E;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+li{
+
+    list-style-type: none;
+    margin-top: 10px;
+    height: 10px;
+    width: fit-content;
+    padding: 5px;
+}
+
+#color{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 20px;
+    margin-right: 5px;
+}
+
+.color_value{
+
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.color_demo{
+
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+/* main section end */
