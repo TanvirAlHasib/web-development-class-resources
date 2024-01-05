@@ -21,5 +21,11 @@ picker_button.addEventListener("click", async() => {
     <span class="color_value">${colour.sRGBHex}</span>
     </li>`;
 
+});
+
+//clear picked color
+clear_all.addEventListener("click", () => {
+
+    picked_color_lists.innerHTML = "";
 
 });
