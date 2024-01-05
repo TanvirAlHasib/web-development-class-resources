@@ -9,7 +9,9 @@ picked_color_lists.style.display = "none";
 //eye droper starting event for picking color
 picker_button.addEventListener("click", async() => {
 
-    //eye dropper method initialized
+    try {
+        
+        //eye dropper method initialized
     const eyeDropper = new EyeDropper();
     const colour = await eyeDropper.open();
 
@@ -20,6 +22,12 @@ picker_button.addEventListener("click", async() => {
     <div class="color_demo" style="background-color: ${colour.sRGBHex};"></div>
     <span class="color_value">${colour.sRGBHex}</span>
     </li>`;
+
+    } catch (error) {
+        
+        alert("something went wrong");
+
+    }
 
 });
 
