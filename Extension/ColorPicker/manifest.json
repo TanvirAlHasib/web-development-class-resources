@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Color Picker",
+    "description": "A extension that helps user to pick color from website",
+    "version": "1.0",
+    "author": "Tanvir Al Hasib",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.png"
+    }
+  }
