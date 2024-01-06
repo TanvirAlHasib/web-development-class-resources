@@ -2,6 +2,7 @@
 const picker_button = document.getElementById("pick");
 const clear_all = document.getElementById("clear_all");
 const picked_color_lists = document.querySelector(".picked_color_lists");
+const color_value = document.querySelector(".color_value");
 
 //picked colors array
 let picked_colors_array = JSON.parse(localStorage.getItem("array") || '[]');
@@ -45,9 +46,9 @@ picker_button.addEventListener("click", async() => {
     <span class="color_value">${colour.sRGBHex}</span>
     </li>`;
 
+    //storing color in local storage
     picked_colors_array.push(colour.sRGBHex);
     localStorage.setItem("array", JSON.stringify(picked_colors_array));
-
 
     } catch (error) {
         
@@ -61,7 +62,27 @@ picker_button.addEventListener("click", async() => {
 clear_all.addEventListener("click", () => {
 
     picked_color_lists.innerHTML = "";
+    //deleting color from local storage
     picked_colors_array.length = 0;
+    //to stringify the array, other wise it will be json
     localStorage.setItem("array",JSON.stringify(picked_colors_array))
+
+});
+
+//copying color
+picked_color_lists.addEventListener("click", (e) => {
+
+    if (e.srcElement.classList.value === "color_value") {
+
+        let innerHTMLl = e.target.innerHTML;
+        //for adding the text to clipboard, for paste somewhere else
+        navigator.clipboard.writeText(e.target.innerHTML);
+
+        e.target.innerHTML = "COPIED";
+        
+        //for making 1s interval for copied text to hex color value
+        setInterval(() => e.target.innerHTML = innerHTMLl,1000);
+
+    };
 
 });
