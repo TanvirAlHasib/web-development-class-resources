@@ -125,6 +125,7 @@ li{
     font-size: 18px;
     font-weight: 600;
     color: black;
+    cursor: pointer;
 }
 
 .color_demo{
