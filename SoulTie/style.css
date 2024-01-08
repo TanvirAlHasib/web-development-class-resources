@@ -63,11 +63,13 @@ li{
 
     list-style-type: none;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .header_wrapper_flex h2{
 
     font-size: 3.5rem;
+    cursor: pointer;
 }
 
 .header_wrapper_flex a{
@@ -78,7 +80,27 @@ li{
     padding: 1rem 1.5rem;
     border: solid 0.1rem black;
     border-radius: 2rem;
+    transition: all 0.2s linear;
 }
+
+/* header hover effect start */
+
+
+li:hover{
+
+    color: rgba(0, 0, 0, 0.712);
+
+}
+
+.header_wrapper_flex a:hover{
+
+    background: #e29f94;
+    border: solid 0.1rem #e29f94;
+
+}
+
+
+/* header hover effect end */
 
 
 /* header section end */
