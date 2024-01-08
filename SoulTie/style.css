@@ -19,6 +19,7 @@
 img{
 
     max-width: 100%;
+    border-radius: 1rem;
 }
 
 
@@ -50,6 +51,8 @@ html{
     justify-content: space-between;
     height: 10rem;
     align-items: center;
+    margin-bottom: 0.5rem;
+    color: #403737;
 }
 
 ul{
@@ -88,7 +91,8 @@ li{
 
 li:hover{
 
-    color: rgba(0, 0, 0, 0.712);
+    color: rgba(0, 0, 0, 0.589);
+
 
 }
 
@@ -96,6 +100,7 @@ li:hover{
 
     background: #e29f94;
     border: solid 0.1rem #e29f94;
+    color: #fffefe;
 
 }
 
@@ -104,3 +109,96 @@ li:hover{
 
 
 /* header section end */
+
+
+
+/* hero section start */
+
+
+
+.hero_wrapper_flex{
+
+    display: flex;
+    flex-wrap: nowrap;
+    height: 69rem;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 25rem;
+}
+
+.hero_absolute{
+
+    position: absolute;
+    background-color: white;
+    top: 43%;
+    left: 27%;
+    border-radius: 2rem;
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inside_hero_absolute{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    top: 17%;
+    left: 19%;
+
+}
+
+.tittle{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tittle h5{
+
+    font-size: 1.8rem;
+    color: #e29f94;
+
+}
+
+.inside_hero_absolute h1{
+
+    font-size: 7rem;
+    color: #403737;
+
+}
+
+
+.inside_hero_absolute a{
+
+    color: #fffefe;
+    text-decoration: none;
+    background-color: #e29f94;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 2rem 3rem;
+    border-radius: 4rem;
+    margin-top: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* hero section hover effect start */
+
+
+.inside_hero_absolute a:hover{
+
+    background-color: #403737;
+}
+
+
+/* hero section hover effect end */
+
+
+
+/* hero section end */
