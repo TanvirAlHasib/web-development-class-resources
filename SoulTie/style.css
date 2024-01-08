@@ -10,6 +10,18 @@
 /* default section start */
 
 
+.wrapper{
+
+    max-width: 70%;
+    margin: 0rem auto;
+}
+
+img{
+
+    max-width: 100%;
+}
+
+
 html{
 
     font-size: 62.50%;
@@ -27,3 +39,18 @@ html{
 
 
 /* default section end */
+
+
+/* header section start */
+
+
+.header_wrapper_flex{
+
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center;
+}
+
+
+/* header section end */
