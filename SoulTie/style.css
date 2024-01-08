@@ -5,3 +5,25 @@
 
 
 /* font import section end */
+
+
+/* default section start */
+
+
+html{
+
+    font-size: 62.50%;
+    /* default font size will be 10px for the website */
+}
+
+
+*{
+
+    margin: 0rem;
+    border: none;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+
+/* default section end */
