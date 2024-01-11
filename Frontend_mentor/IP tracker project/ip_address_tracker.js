@@ -6,3 +6,7 @@ const satelliteView = L.tileLayer('http://{s}.google.com/vt?lyrs=s,h&x={x}&y={y}
 });
 
 satelliteView.addTo(map);
+
+const marker = L.marker([25.184, 89.1889]);
+
+marker.addTo(map);
