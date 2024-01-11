@@ -1,4 +1,23 @@
-#map{
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-    height: 50vh;
+/* default section start */
+
+
+html{
+
+    font-size: 62.50%;
+    /* default font size will be 10px for the website */
 }
+
+
+*{
+
+    margin: 0rem;
+    border: none;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+
+/* default section end */
