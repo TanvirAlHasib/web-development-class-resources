@@ -28,13 +28,15 @@
             class="pattern-bg-desktop"
           />
 
-          <div id="map"></div>
+          <div class="map_container">
+            <div id="map"></div>
+          </div>
 
           <div class="absolute_content">
             <h2 class="heading">IP Address Tracker</h2>
 
             <div class="input_section">
-              <input type="number" name="ip" id="input_ip" />
+              <input type="text" name="ip" id="input_ip" />
               <button id="search">Sreach</button>
             </div>
 
@@ -69,6 +71,12 @@
     </main>
 
     <!-- main section end -->
+
+    <!-- to get user public ip address start -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- to get user public ip address end -->
 
     <!-- script tag for leaflet map start -->
 
