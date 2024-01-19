@@ -1,263 +1,314 @@
 /* font import section start */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* font import section end */
 
-
 /* default section start */
 
-
-.wrapper{
-
-    max-width: 70%;
-    margin: 0rem auto;
+.wrapper {
+  max-width: 70%;
+  margin: 0rem auto;
 }
 
-img{
-
-    max-width: 100%;
-    border-radius: 1rem;
+img {
+  max-width: 100%;
+  border-radius: 1rem;
 }
 
-
-html{
-
-    font-size: 62.50%;
-    /* default font size will be 10px for the website */
+html {
+  font-size: 62.5%;
+  /* default font size will be 10px for the website */
 }
 
-
-*{
-
-    margin: 0rem;
-    border: none;
-    padding: 0rem;
-    box-sizing: border-box;
+* {
+  margin: 0rem;
+  border: none;
+  padding: 0rem;
+  box-sizing: border-box;
 }
-
 
 /* default section end */
 
-
 /* header section start */
 
-
-.header_wrapper_flex{
-
-    display: flex;
-    justify-content: space-between;
-    height: 10rem;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    color: #403737;
+.header_wrapper_flex {
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #403737;
 }
 
-ul{
-
-    display: flex;
-    width: 31rem;
-    justify-content: space-between;
+ul {
+  display: flex;
+  width: 31rem;
+  justify-content: space-between;
 }
 
-li{
-
-    list-style-type: none;
-    font-size: 2rem;
-    cursor: pointer;
+li {
+  list-style-type: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.header_wrapper_flex h2{
-
-    font-size: 3.5rem;
-    cursor: pointer;
+.header_wrapper_flex h2 {
+  font-size: 3.5rem;
+  cursor: pointer;
 }
 
-.header_wrapper_flex a{
-
-    text-decoration: none;
-    font-size: 2rem;
-    color: black;
-    padding: 1rem 1.5rem;
-    border: solid 0.1rem black;
-    border-radius: 2rem;
-    transition: all 0.2s linear;
+.header_wrapper_flex a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem 1.5rem;
+  border: solid 0.1rem black;
+  border-radius: 2rem;
+  transition: all 0.2s linear;
 }
 
 /* header hover effect start */
 
-
-li:hover{
-
-    color: rgba(0, 0, 0, 0.589);
-
-
+li:hover {
+  color: rgba(0, 0, 0, 0.589);
 }
 
-.header_wrapper_flex a:hover{
-
-    background: #e29f94;
-    border: solid 0.1rem #e29f94;
-    color: #fffefe;
-
+.header_wrapper_flex a:hover {
+  background: #e29f94;
+  border: solid 0.1rem #e29f94;
+  color: #fffefe;
 }
-
 
 /* header hover effect end */
 
-
 /* header section end */
-
-
 
 /* hero section start */
 
-
-
-.hero_wrapper_flex{
-
-    display: flex;
-    flex-wrap: nowrap;
-    height: 69rem;
-    width: 100%;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 23rem;
+.hero_wrapper_flex {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 69rem;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 23rem;
 }
 
-.hero_absolute{
-
-    position: absolute;
-    background-color: white;
-    top: 43%;
-    left: 27%;
-    border-radius: 2rem;
-    z-index: 1;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.hero_absolute {
+  position: absolute;
+  background-color: white;
+  top: 43%;
+  left: 27%;
+  border-radius: 2rem;
+  z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.inside_hero_absolute{
-
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    top: 17%;
-    left: 16%;
-
+.inside_hero_absolute {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  top: 17%;
+  left: 16%;
 }
 
-.tittle{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+.tittle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.tittle h5{
-
-    font-size: 1.8rem;
-    color: #e29f94;
-    font-weight: 400;
-
+.tittle h5 {
+  font-size: 1.8rem;
+  color: #e29f94;
+  font-weight: 400;
 }
 
-.inside_hero_absolute h1{
-
-    font-size: 7.5rem;
-    color: #403737;
-
+.inside_hero_absolute h1 {
+  font-size: 7.5rem;
+  color: #403737;
 }
 
-
-.inside_hero_absolute a{
-
-    color: #fffefe;
-    text-decoration: none;
-    background-color: #e29f94;
-    font-size: 2rem;
-    font-weight: 400;
-    padding: 2rem 3rem;
-    border-radius: 4rem;
-    margin-top: 3rem;
-    transition: all 0.3s ease-in-out;
+.inside_hero_absolute a {
+  color: #fffefe;
+  text-decoration: none;
+  background-color: #e29f94;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 3rem;
+  border-radius: 4rem;
+  margin-top: 3rem;
+  transition: all 0.3s ease-in-out;
 }
-
 
 /* hero section hover effect start */
 
-
-.inside_hero_absolute a:hover{
-
-    background-color: #403737;
+.inside_hero_absolute a:hover {
+  background-color: #403737;
 }
-
 
 /* hero section hover effect end */
 
-
 /* hero section end */
-
 
 /* 2nd section start */
 
-
-
-.second_container_content{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
-    margin-bottom: 13rem;
+.second_container_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 13rem;
 }
 
-.second_container_tittle{
-
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
+.second_container_tittle {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.second_container_tittle h5{
-
-    font-size: 1.8rem;
-    color: #e29f94;
-    font-weight: 400;
-
+.second_container_tittle h5 {
+  font-size: 1.8rem;
+  color: #e29f94;
+  font-weight: 400;
 }
 
-.second_container_content h2{
-
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 400;
-    color: #403737;
+.second_container_content h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+  color: #403737;
 }
 
-.second_container_content h4{
-
-    font-size: 3rem;
-    font-weight: 400;
-    color: #e29f94;
-
+.second_container_content h4 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #e29f94;
 }
 
-.second_container_content p{
-
-    font-size: 2rem;
-    margin-top: -1.8rem;
-    color: #7e7e7e;
-
+.second_container_content p {
+  font-size: 2rem;
+  margin-top: -1.8rem;
+  color: #7e7e7e;
 }
-
-
 
 /* 2nd section end */
+
+/* 3rd section start */
+
+.third_container{
+
+  background-color: #f4e5e3;
+  position: relative;
+  margin-top: 45rem;
+  padding-top: 45rem;
+  padding-bottom: 7rem;
+  margin-bottom: 15rem;
+
+}
+
+.third_container_left_flower{
+
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.third_container_right_flower{
+
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+
+}
+
+.third_section_thumbnail{
+
+  position: absolute;
+  width: 70%;
+  z-index: 1;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.absolute_content_of_thumbnail{
+
+  position: absolute;
+  width: 11rem;
+  height: 11rem;
+  z-index: 2;
+  top: 41%;
+  left: 46%;
+  color: #ebcaca;
+  filter: drop-shadow(5px 5px 10px #f89898);
+  cursor: pointer;
+}
+
+.third_section_wrapper_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third_section_learnMore svg {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.flex_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 34rem;
+  gap: 3rem;
+}
+
+.content_column_flex{
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+
+.content_column_flex h3{
+
+  font-size: 2.8rem;
+  font-weight: 400;
+
+}
+
+.content_column_flex p{
+
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #7f7d7d;
+
+}
+
+.content_column_flex a{
+
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 800;
+
+}
+
+.flex_content img {
+  width: 6rem;
+  height: 6rem;
+}
+
+/* 3rd section end */
