@@ -377,21 +377,73 @@ li:hover {
 
 .fourth_section_image1{
 
-  width: 40rem;
+  width: 43.3rem;
+  cursor: pointer;
 
 }
 
 .fourth_section_image2{
 
-  width: 40rem;
+  width: 43.3rem;
+  cursor: pointer;
 
 }
 
 .fourth_section_image3{
 
-  width: 40rem;
+  width: 43.3rem;
+  cursor: pointer;
+
+}
+
+.fourth_section_image4{
+
+  cursor: pointer;
 
 }
 
 
 /* 4th section end */
+
+
+/* 5th section start */
+
+
+
+.fifth_wrapper_flex{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9rem 0rem;
+  padding: 0rem 0.6rem;
+
+}
+
+.fifth_section_content{
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+.fifth_section_content h2{
+
+  font-size: 5rem;
+  font-weight: 600;
+  color: #e29f94;
+
+}
+
+.fifth_section_content p{
+
+  font-size: 2.2rem;
+  color: #898989;
+
+}
+
+
+
+/* 5th section end */
