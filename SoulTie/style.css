@@ -647,8 +647,7 @@ li:hover {
   justify-content: center;
   align-items: center;
   gap: 16rem;
-  padding-bottom: 4rem;
-  border-bottom: dashed 0.1rem white;
+  padding-bottom: 5rem;
 
 }
 
@@ -697,3 +696,16 @@ li:hover {
 
 
 /* 7th section end */
+
+
+/* 8th section start */
+
+
+.eighth_container{
+
+  margin-top: 25rem;
+
+}
+
+
+/* 8th section end */
