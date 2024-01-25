@@ -581,3 +581,119 @@ li:hover {
 
 
 /* 6th section end */
+
+
+/* 7th section start */
+
+
+
+.seventh_section_content{
+
+  position: relative;
+  z-index: 1;
+
+}
+
+.pakages{
+
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  z-index: 15;
+  background-color: #403737;
+  padding: 6rem 5rem;
+  border-radius: 2rem;
+
+}
+
+.pakages_tittle{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+
+}
+
+.pakages_first_tittle{
+
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+
+}
+
+.pakages_first_tittle h5{
+
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #e29f94;
+
+}
+
+.pakages_second_tittle h2{
+
+  font-size: 6rem;
+  font-weight: 400;
+  color: white;
+
+}
+
+.plans{
+
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 16rem;
+  padding-bottom: 4rem;
+  border-bottom: dashed 0.1rem white;
+
+}
+
+.plan{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.plan h3{
+
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: white;
+
+}
+
+.plan p{
+
+  font-size: 2rem;
+  font-weight: 400;
+  color: #c0bdbd;
+
+}
+
+.plans h2{
+
+  font-size: 3.3rem;
+  color: white;
+  font-weight: 400;
+
+}
+
+.pakages a{
+
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  background-color: #e29f94;
+  padding: 2rem 5rem;
+  border-radius: 3rem;
+
+}
+
+
+/* 7th section end */
