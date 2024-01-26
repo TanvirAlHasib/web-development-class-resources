@@ -53,12 +53,21 @@ li {
   cursor: pointer;
 }
 
-.header_wrapper_flex h2 {
-  font-size: 3.5rem;
-  cursor: pointer;
+li a{
+
+  text-decoration: none;
+  color: #403737;
+
 }
 
-.header_wrapper_flex a {
+.header_wrapper_flex h2 a{
+  font-size: 3.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #403737;
+}
+
+.header_wrapper_flex_a {
   text-decoration: none;
   font-size: 2rem;
   color: black;
@@ -70,11 +79,11 @@ li {
 
 /* header hover effect start */
 
-li:hover {
+li a:hover {
   color: rgba(0, 0, 0, 0.589);
 }
 
-.header_wrapper_flex a:hover {
+.header_wrapper_flex_a:hover {
   background: #e29f94;
   border: solid 0.1rem #e29f94;
   color: #fffefe;
