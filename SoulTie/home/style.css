@@ -704,7 +704,7 @@ li:hover {
 .eighth_container{
 
   margin-top: 27rem;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 
 }
 
@@ -809,3 +809,194 @@ li:hover {
 
 
 /* 8th section end */
+
+
+/* footer section start */
+
+
+
+.footer_container{
+
+  background-color: #403737;
+  padding: 10rem 0rem;
+
+}
+
+.footer_column_flex{
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+}
+
+.footer_starting{
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+
+}
+
+.footer_starting h2{
+
+  font-size: 4rem;
+  color: #fbfafa;
+  font-weight: 400;
+
+}
+
+.footer_starting h3{
+
+  font-size: 3.5rem;
+  color: #fbfafa;
+  font-weight: 400;
+
+}
+
+input{
+
+  width: 26rem;
+  height: 4.2rem;
+  outline: none;
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+  border: solid 0.1rem #b7b4b6;
+  background-color: #403737;
+
+}
+
+.footer_middle{
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+  border-bottom: solid 0.1rem #534b4b;
+
+}
+
+.start_of_middle{
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+
+.start_of_middle h4{
+
+  font-size: 2.5rem;
+  color: #fbfafa;
+  font-weight: 400;
+
+}
+
+.end_of_middle{
+
+  display: flex;
+  gap: 14rem;
+
+}
+
+.end_of_middle_content{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.end_of_middle_content h3{
+
+  font-size: 2.5rem;
+  color: #fbfafa;
+  font-weight: 400;
+  margin-bottom: 1rem;
+
+}
+
+.phone{
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.email{
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.phone p{
+
+  color: #c5c3c5;
+  font-size: 1.6rem;
+
+}
+
+.email p{
+
+  color: #c5c3c5;
+  font-size: 1.6rem;
+
+}
+
+.location{
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.location img{
+
+  width: 1.5rem;
+  height: 2.5rem;
+
+}
+
+.location p{
+
+  color: #c5c3c5;
+  font-size: 1.6rem;
+
+}
+
+.social_media{
+
+  display: flex;
+  gap: 2rem;
+
+}
+
+.footer_last{
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+
+}
+
+.footer_last p{
+
+  color: #c5c3c5;
+  font-size: 1.6rem;
+
+}
+
+.footer_last a{
+
+  font-size: 1.6rem;
+  color: #c5c3c5;
+  text-decoration: none;
+
+}
+
+
+
+/* footer section end */
