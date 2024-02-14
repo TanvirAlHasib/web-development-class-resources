@@ -1,5 +1,6 @@
 import './App.css'
 import Header, { HeaderElements as H_elements } from './assets/components/Header'
+import { people } from "./assets/listRendering/data";
 
 function App() {
 
@@ -13,6 +14,21 @@ function App() {
 
     <Header/>
     <H_elements/>
+
+    <h1>
+      listRendering start
+    </h1>
+
+    </div>
+
+    <div>
+
+    {
+  people.map(person => (
+    <li key={person.id}>{person.name}</li>
+  ))
+}
+
 
     </div>
 
