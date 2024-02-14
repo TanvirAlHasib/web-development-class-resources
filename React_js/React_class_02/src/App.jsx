@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './assets/components/Header'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
     
     <h1>Second try in react</h1>
     <Profile/>
+
+    <Header/>
 
     </div>
 
